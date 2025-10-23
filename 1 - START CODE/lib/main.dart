@@ -15,8 +15,10 @@ void main() {
         goodChoice: "4",point:100),
   ];
 
+  
   Quiz quiz = Quiz(questions: questions);
   QuizConsole console = QuizConsole(quiz: quiz);
-
+  
+  
   console.startQuiz();
 }
