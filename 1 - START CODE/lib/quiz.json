@@ -28,5 +28,101 @@
       "goodChoice": "RONAN",
       "point": 999
     }
+  ],
+  "players": [
+    {
+      "id": "5c8288ce-30a1-463f-9bd0-4efe1a67c027",
+      "name": "dspk",
+      "answers": []
+    },
+    {
+      "id": "9a3f9587-b0f6-4154-b3f7-b9e8032fad6b",
+      "name": "SABAY",
+      "answers": [
+        {
+          "id": "",
+          "questionId": "a51d5651-07c0-4882-a79a-28e2dd7b24f3",
+          "answerChoice": "as"
+        },
+        {
+          "id": "",
+          "questionId": "d0bb9111-2e4b-4b76-8c29-6fcd96b4f344",
+          "answerChoice": "asa"
+        },
+        {
+          "id": "",
+          "questionId": "4aafc876-874d-4ee4-94ce-3b6c4abdc7e2",
+          "answerChoice": "sa"
+        }
+      ]
+    },
+    {
+      "id": "3d213154-51fc-46ec-8312-055a78334000",
+      "name": "sa",
+      "answers": [
+        {
+          "id": "",
+          "questionId": "02606413-fbac-4e9a-84d0-fe931b317e33",
+          "answerChoice": "sa"
+        },
+        {
+          "id": "",
+          "questionId": "a51d5651-07c0-4882-a79a-28e2dd7b24f3",
+          "answerChoice": "sa"
+        },
+        {
+          "id": "",
+          "questionId": "d0bb9111-2e4b-4b76-8c29-6fcd96b4f344",
+          "answerChoice": "sa"
+        },
+        {
+          "id": "",
+          "questionId": "4aafc876-874d-4ee4-94ce-3b6c4abdc7e2",
+          "answerChoice": "s"
+        }
+      ]
+    },
+    {
+      "id": "e78178c2-88f8-42a5-96a1-50c0ec214036",
+      "name": "as",
+      "answers": [
+        {
+          "id": "",
+          "questionId": "02606413-fbac-4e9a-84d0-fe931b317e33",
+          "answerChoice": "a"
+        },
+        {
+          "id": "",
+          "questionId": "a51d5651-07c0-4882-a79a-28e2dd7b24f3",
+          "answerChoice": "sa"
+        },
+        {
+          "id": "",
+          "questionId": "d0bb9111-2e4b-4b76-8c29-6fcd96b4f344",
+          "answerChoice": "s"
+        },
+        {
+          "id": "",
+          "questionId": "4aafc876-874d-4ee4-94ce-3b6c4abdc7e2",
+          "answerChoice": "as"
+        }
+      ]
+    },
+    {
+      "id": "22dd8bdd-583f-4429-a382-b95443cee2d3",
+      "name": "a",
+      "answers": [
+        {
+          "id": "",
+          "questionId": "02606413-fbac-4e9a-84d0-fe931b317e33",
+          "answerChoice": "sa"
+        },
+        {
+          "id": "",
+          "questionId": "a51d5651-07c0-4882-a79a-28e2dd7b24f3",
+          "answerChoice": "sa"
+        }
+      ]
+    }
   ]
 }

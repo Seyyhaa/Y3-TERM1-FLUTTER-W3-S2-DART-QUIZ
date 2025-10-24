@@ -6,7 +6,8 @@ import 'data/QuizRepository.dart';
 void main() {
   try {
     QuizRepository qr = QuizRepository("./quiz.json");
-    Quiz quiz;
+
+    Quiz quiz = qr.readQuiz();
 
     final file = File("./quiz.json");
     if (file.existsSync()) {
@@ -41,7 +42,8 @@ void main() {
       qr.writeQuiz(quiz);
     }
 
-    QuizConsole console = QuizConsole(quiz: quiz);
+    
+    QuizConsole console = QuizConsole(quiz: quiz, repo: qr);
     console.startQuiz();
 
   } catch (e) {

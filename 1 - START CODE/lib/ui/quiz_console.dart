@@ -1,10 +1,13 @@
 import 'dart:io';
+import 'package:my_first_project/data/QuizRepository.dart';
+
 import '../domain/quiz.dart';
 
 class QuizConsole {
   Quiz quiz;
+   QuizRepository repo;
 
-  QuizConsole({required this.quiz});
+  QuizConsole({required this.quiz,required this.repo});
 
   void startQuiz() {
     print('--- Welcome to the Quiz ---');
@@ -46,6 +49,7 @@ class QuizConsole {
       for (var entry in quiz.getAllScores().entries) {
         print('Player: ${entry.key}\tScore:${entry.value}');
       }
+       repo.writeQuiz(quiz);
     }
   }
 }
