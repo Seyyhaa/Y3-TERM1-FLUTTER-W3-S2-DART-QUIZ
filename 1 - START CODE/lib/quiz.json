@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "id": "02606413-fbac-4e9a-84d0-fe931b317e33",
+      "title": "Capital of France?",
+      "choices": ["Paris", "London", "Rome"],
+      "goodChoice": "Paris",
+      "point": 100
+    },
+    {
+      "id": "a51d5651-07c0-4882-a79a-28e2dd7b24f3",
+      "title": "2 + 2 = ?",
+      "choices": ["2", "4", "5"],
+      "goodChoice": "4",
+      "point": 100
+    },
+    {
+      "id": "d0bb9111-2e4b-4b76-8c29-6fcd96b4f344",
+      "title": "What color is the sky?",
+      "choices": ["Blue", "Green", "Red"],
+      "goodChoice": "Blue",
+      "point": 50
+    },
+    {
+      "id": "4aafc876-874d-4ee4-94ce-3b6c4abdc7e2",
+      "title": "Who is the Best?",
+      "choices": ["RONAN", "SABAY", "SOK"],
+      "goodChoice": "RONAN",
+      "point": 999
+    }
+  ]
+}

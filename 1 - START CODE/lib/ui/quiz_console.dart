@@ -18,7 +18,6 @@ class QuizConsole {
         break;
       }
 
-      // Get or create the player
       Player player = quiz.getOrCreatePlayer(name);
 
       for (var question in quiz.questions) {
@@ -28,7 +27,10 @@ class QuizConsole {
         String? userInput = stdin.readLineSync();
 
         if (userInput != null && userInput.isNotEmpty) {
-          Answer answer = Answer(question: question, answerChoice: userInput);
+          Answer answer = Answer(
+            questionId: question.id,
+            answerChoice: userInput,
+          );
           player.addAnswer(answer);
         } else {
           print('No answer entered. Skipping question.');
@@ -37,12 +39,10 @@ class QuizConsole {
         print('');
       }
 
-      // Calculate and show this player's score
       Map<String, int> result = quiz.getScore(player);
       print('${name}, your score in percentage: ${result['Percentage']} %');
-      print('${name}, your score in points: ${result['Score']}');
+      print('${name}, your score in : ${result['Score']} points');
 
-      // Show leaderboard
       for (var entry in quiz.getAllScores().entries) {
         print('Player: ${entry.key}\tScore:${entry.value}');
       }
